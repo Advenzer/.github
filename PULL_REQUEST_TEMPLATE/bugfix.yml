@@ -1,0 +1,29 @@
+name: Bug fix
+description: Fixtures for bugs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a PR report, please search for the update in the existing PRs. 
+
+        ---
+
+        Thank you for taking the time to open a PR. To address this PR as fast as possible, we need some information.
+  - type: textarea
+    id: pr-description
+    attributes:
+      label: PR description
+      description: What bug does this PR fix?
+    validations:
+      required: true
+  - type: input
+    id: pr-issue-link
+    attributes:
+      label: Link the issue
+  - type: textarea
+    id: pr-behaviour
+    attributes:
+      label: Expected behaviour
+      description: What new behaviour does this PR introduce?
+    validations:
+      required: true
