@@ -1,5 +1,6 @@
 name: Documentation
 description: Additions to the documentation
+labels: ["documentation"]
 body:
   - type: markdown
     attributes:

@@ -1,5 +1,6 @@
 name: Bug fix
 description: Fixtures for bugs
+labels: ["bug"]
 body:
   - type: markdown
     attributes:

@@ -1,5 +1,6 @@
 name: Feature
 description: New feature additions
+labels: ["feature"]
 body:
   - type: markdown
     attributes:
